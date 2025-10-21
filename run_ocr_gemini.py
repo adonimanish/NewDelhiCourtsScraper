@@ -5,7 +5,7 @@ from PIL import Image
 # --- Configuration ---
 # The client automatically looks for the GEMINI_API_KEY environment variable.
 try:
-    client = genai.Client(api_key="AIzaSyBvokbedL9AahypW7uesYP6G7eNwAfyvNU")  ## here you have to give your api key
+    client = genai.Client(api_key="YOUR_GEMINI_API_KEY")  ## here you have to give your api key
     ## when uploading just change your api kry to YOUR_GEMINI_API_KEY
 except Exception as e:
     print("Error initializing Gemini client. Make sure your GEMINI_API_KEY environment variable is set correctly.")
